@@ -12,11 +12,9 @@ Installation
    
 3. git clone <repository-url>
 
-4. Install Dependencies
-   npm install
+4. Install Dependencies: npm install
    
-5. Verify Installation
-   npx cypress verify
+5. Verify Installation: npx cypress verify
 
    
 <img width="1464" height="1282" alt="image" src="https://github.com/user-attachments/assets/ce65dfb6-9081-4146-8cd5-c20a9c352f9a" />
