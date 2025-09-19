@@ -2,16 +2,18 @@
 Assesment Test for QA Position
 
 Check versi:
-bashnode --version
+node --version
 npm --version
 Installation
 1. Clone Repository
-bashgit clone <repository-url>
+2. git clone <repository-url>
 cd LGQ-QA-ASSESSMENT
-2. Install Dependencies
-bashnpm install
-3. Verify Installation
-bashnpx cypress verify
+3. Install Dependencies
+   npm install
+4. Verify Installation
+   npx cypress verify
+
+   
 Project Structure
 LGQ-QA-ASSESSMENT/
 ├── .vscode/
@@ -39,5 +41,5 @@ LGQ-QA-ASSESSMENT/
 └── package.json                      # Dependencies & scripts
 
 
-Running Tests
-npx cypress open
+5. Running Tests
+   npx cypress open
