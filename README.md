@@ -3,14 +3,19 @@ Assesment Test for QA Position
 
 Check versi:
 node --version
+
 npm --version
+
+
 Installation
 1. Clone Repository
-2. git clone <repository-url>
-cd LGQ-QA-ASSESSMENT
-3. Install Dependencies
+   
+3. git clone <repository-url>
+
+4. Install Dependencies
    npm install
-4. Verify Installation
+   
+5. Verify Installation
    npx cypress verify
 
    
@@ -41,5 +46,5 @@ LGQ-QA-ASSESSMENT/
 └── package.json                      # Dependencies & scripts
 
 
-5. Running Tests
+6. Running Tests
    npx cypress open
