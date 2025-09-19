@@ -1,0 +1,41 @@
+{
+  "validUser": {
+    "namaDepan": "{{namaDepan}}",
+    "namaBelakang": "{{namaBelakang}}",
+    "tempatLahir": "Jakarta",
+    "tanggalLahir": "15/05/1985",
+    "nomorKTP": "{{nomorKTP}}",
+    "masaBerlakuKTP": "01/01/2031",
+    "kewarganegaraan": "WNI",
+    "provinsi": "DKI Jakarta",
+    "kota": "Jakarta Barat",
+    "alamat": "Jl. Benama No.123, RT 01 RW 02",
+    "nomorTelepon": "08112345678",
+    "pekerjaan": "Pegawai Swasta",
+    "namaPerusahaan": "LGQ Inc",
+    "alamatPerusahaan": "Jalan Bersama Nomor 101",
+    "nomorTeleponPerusahaan": "021123987456",
+    "jenisKendaraan": "Mobil",
+    "kendaraanDicari": "Kendaraan Niaga",
+    "tujuanPembelian": "Kantor/Usaha",
+    "email": "{{email}}",
+    "password": "Rah@si4_123",
+    "confirmPassword": "Rah@si4_123!",
+    "nomorNpwp": "{{nomorNpwp}}",
+    "passwordLogin": "Rah@si4_123!"
+  },
+  "paymentData": {
+    "nomorRekening": "{{nomorRekening}}",
+    "namaBank": "BCA",
+    "namaPemilikRekening": "{{namaPemilikRekening}}",
+    "sumberDana": "Gaji/Upah",
+    "metodePembayaran": "Debit"
+  },
+  "files": {
+    "ktpFile": "ktp.jpg"
+  },
+  "staticOptions": {
+    "namaDepanList": ["Ahmad", "Budi", "Sari", "Dewi", "Andi", "Maya", "Rizki", "Indah", "Arif", "Lina", "Sari", "Tika", "Ridwan", "Tessa", "Indra"],
+    "namaBelakangList": ["Santoso", "Wijaya", "Pratama", "Sari", "Kusuma", "Hartono", "Permana", "Salsabila", "Nugraha", "Putri", "Sudrajat", "Syahroni", "Mulyani", "Estianti"]
+  }
+}

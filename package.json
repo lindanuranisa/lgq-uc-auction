@@ -1,0 +1,42 @@
+{
+  "name": "uc-auction-automation",
+  "version": "1.0.0",
+  "description": "UC Auction Registration Test Automation",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:headed": "cypress run --headed",
+    "test:registration": "cypress run --spec 'cypress/e2e/features/registration.feature'",
+    "test:registration:headed": "cypress run --spec 'cypress/e2e/features/registration.feature' --headed",
+    "test:registration:debug": "cypress run --spec 'cypress/e2e/features/registration.feature' --headed --no-exit",
+    "test:smoke": "cypress run --env grepTags='@smoke'",
+    "test:positive": "cypress run --env grepTags='@positive'",
+    "test:negative": "cypress run --env grepTags='@negative'",
+    "clean:reports": "rm -rf cypress/reports cypress/screenshots cypress/videos || echo 'Clean completed'",
+    "clean:downloads": "rm -rf cypress/downloads || echo 'Clean completed'",
+    "setup": "npm install && cypress verify",
+    "verify": "cypress verify && cypress version"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "cypress": "^13.6.0",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^17.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": [
+      "cypress/support/step_definitions/*.{js,ts}"
+    ],
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json"
+    },
+    "html": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/report.html"
+    }
+  }
+}
