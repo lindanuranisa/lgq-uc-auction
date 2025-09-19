@@ -19,31 +19,8 @@ Installation
    npx cypress verify
 
    
-Project Structure
-LGQ-QA-ASSESSMENT/
-├── .vscode/
-│   └── settings.json                   # VS Code configuration
-├── cypress/
-│   ├── downloads/                      # Downloaded files during tests
-│   ├── e2e/
-│   │   └── features/                   # Feature files (.feature)
-│   │       └── registration.feature
-│   ├── fixtures/                       # Test data & files
-│   │   ├── ktp.jpg                    # Sample KTP file for upload
-│   │   └── testData.json              # Test data
-│   └── support/
-│       ├── pages/                     # Page Object Model
-│       │   └── RegistrationPage.js
-│       ├── step_definitions/          # Step definition files
-│       │   └── registration_steps.js
-│       ├── utils/                     # Utility functions
-│       │   └── dataGenerator.js
-│       ├── commands.js                # Custom commands
-│       └── e2e.js                    # Support file
-├── node_modules/                      # Dependencies
-├── cypress.config.js                 # Cypress configuration
-├── package-lock.json                 # Dependency lock file
-└── package.json                      # Dependencies & scripts
+<img width="1464" height="1282" alt="image" src="https://github.com/user-attachments/assets/ce65dfb6-9081-4146-8cd5-c20a9c352f9a" />
+
 
 
 6. Running Tests
